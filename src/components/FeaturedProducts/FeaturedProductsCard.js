@@ -1,7 +1,6 @@
 import {
   Button,
   CardActionArea,
-  CardMedia,
   Grid,
   makeStyles,
   Typography,

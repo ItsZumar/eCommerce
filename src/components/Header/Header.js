@@ -11,7 +11,7 @@ import {
 import ArrowDropDownIcon from "@material-ui/icons/ArrowDropDown";
 import SearchIcon from "@material-ui/icons/Search";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
-import logo from "../Image/logo.png";
+
 import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
