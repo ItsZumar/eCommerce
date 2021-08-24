@@ -14,6 +14,8 @@ import img from "../components/Image/gameRock.jpg";
 import img2 from "../components/Image/laptop.jpg";
 import img3 from "../components/Image/laptop2.jpg";
 
+import GoToTop from "../components/GoToTop/GoToTop";
+
 const images = [
   {
     original: img,
@@ -111,6 +113,7 @@ function CardDetails({ CardData }) {
           </Grid>
         </Container>
       ))}
+      <GoToTop />
     </Container>
   );
 }
