@@ -18,36 +18,43 @@ const useStyles = makeStyles({
   },
   btn: {
     marginTop: 10,
-    backgroundColor: "#013559",
+    backgroundColor: "#800f2f",
     color: "white",
     "&:hover": {
-      backgroundColor: "#024d7f",
+      backgroundColor: "#c9184a",
     },
   },
   linkBtn: {
     textDecoration: "none",
+  },
+  heading: {
+    color: "#c9184a",
+    fontWeight: "bold",
   },
 });
 
 function FeaturedProductsCard({ id, img, heading, detail, price, btn }) {
   const classes = useStyles();
   let headingLen = 35;
-  let detailLen = 75;
+
   return (
     <Grid item xs={12} sm={6} md={4} lg={3}>
-      <CardActionArea style={{ padding: 15 }} align="center">
+      <CardActionArea style={{ padding: 15 }}>
         <Link to={`/cardDetails/${id}`}>
-          <CardMedia image={img} className={classes.media} title="game" />
+          <Typography align="center">
+            {/* <CardMedia image={img} className={classes.media} title="game" /> */}
+            <img src={img} className={classes.media} />
+          </Typography>
         </Link>
-        <Typography variant="h6" color="primary">
+        <Typography variant="h6" className={classes.heading}>
           {heading.slice(0, headingLen) +
             (heading.length > headingLen ? "..." : "")}
         </Typography>
         <Typography className={classes.price}>
-          {detail.slice(0, detailLen) +
-            (detail.length > detailLen ? "..." : "")}
+          {detail.slice(0, headingLen) +
+            (detail.length > headingLen ? "..." : "")}
         </Typography>
-        <Typography variant="h6" className={classes.price}>
+        <Typography variant="h6" className={classes.price} align="center">
           {price}
         </Typography>
         <Link to={`/cardDetails/${id}`} className={classes.linkBtn}>

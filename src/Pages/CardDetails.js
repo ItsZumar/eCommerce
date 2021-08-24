@@ -37,7 +37,7 @@ const useStyles = makeStyles({
     marginBottom: 20,
   },
   addToCartBtn: {
-    backgroundColor: "#fff200",
+    backgroundColor: "#ff758f",
     color: "black",
     marginTop: 30,
     marginBottom: 20,
@@ -101,11 +101,7 @@ function CardDetails({ CardData }) {
                     10 - Month(s) Warranty
                   </span>
                 </Typography>
-                <Button
-                  variant="contained"
-                  color="primary"
-                  className={classes.addToCartBtn}
-                >
+                <Button variant="contained" className={classes.addToCartBtn}>
                   <ShoppingCartIcon style={{ marginRight: 10 }} />
                   Add to Cart
                 </Button>

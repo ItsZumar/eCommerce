@@ -17,7 +17,7 @@ const useStyles = makeStyles({
   div: {
     marginBottom: "12px",
     display: "flex",
-    backgroundColor: "#002c4e",
+    backgroundColor: "#800f2f",
     marginTop: 80,
     padding: 10,
     alignItems: "center",
@@ -40,8 +40,9 @@ const useStyles = makeStyles({
     borderRadius: 5,
   },
   subscribeBtn: {
-    backgroundColor: "#ffdc00",
+    backgroundColor: "#ff758f",
     padding: 7,
+    color: "#800f2f",
   },
 });
 
@@ -82,12 +83,12 @@ function Footer() {
           </Grid>
         </Container>
       </div>
-      <div style={{ backgroundColor: "#064f88" }}>
+      <div style={{ backgroundColor: "#c9184a" }}>
         <Container>
           <FooterLinks />
         </Container>
       </div>
-      <div style={{ backgroundColor: "#0e5d9a" }}>
+      <div style={{ backgroundColor: "#ff758f" }}>
         <FooterCopyright />
       </div>
     </>

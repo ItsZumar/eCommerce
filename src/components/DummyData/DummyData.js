@@ -22,6 +22,9 @@ const CardData = [
     img: cardImg2,
     heading:
       "HP 15s-DU3009TU Laptop 11th Gen Intel Core i7 8GB 512GB SSD Intel Graphics 15.6 FHD IPS Windows 10",
+    ProductCode: "NED307T019P2-1047G",
+    Brand: "Palit",
+    PriceUpdatedOn: "17 Aug, 2021",
     details:
       "Stay connected to what matters most with long-lasting battery life and a sleek and portable, micro-edge bezel design. Built to keep you productive and entertained from anywhere, the HP 15 laptop features reliable performance and an expansive display - letting you stream, surf and speed through tasks from sun up to sundown.",
     price: "Rs. 138,900",
@@ -32,6 +35,9 @@ const CardData = [
     img: cardImg3,
     heading:
       "MSI GF65 Thin 10SDR-1026US Gaming Laptop 10th Gen Intel Core i7, 16GB, 1TB SSD, GTX 1660 Ti 6GB, Windows 10, 15.6 FHD IPS 144Hz, Aluminum Black",
+    ProductCode: "NED307T019P2-1047G",
+    Brand: "Palit",
+    PriceUpdatedOn: "17 Aug, 2021",
     details:
       "Stay connected to what matters most with long-lasting battery life and a sleek and portable, micro-edge bezel design. Built to keep you productive and entertained from anywhere, the HP 15 laptop features reliable performance and an expansive display - letting you stream, surf and speed through tasks from sun up to sundown.",
     price: "Rs. 138,900",
@@ -42,6 +48,9 @@ const CardData = [
     img: cardImg4,
     heading:
       "HP 15s-DU3009TU Laptop 11th Gen Intel Core i7 8GB 400GB SSD Intel Graphics 15.6 FHD IPS Windows 1000",
+    ProductCode: "NED307T019P2-1047G",
+    Brand: "Palit",
+    PriceUpdatedOn: "17 Aug, 2021",
     details:
       "Stay connected to what matters most with long-lasting battery life and a sleek and portable, micro-edge bezel design. Built to keep you productive and entertained from anywhere, the HP 15 laptop features reliable performance and an expansive display - letting you stream, surf and speed through tasks from sun up to sundown.",
     price: "Rs. 138,900",
@@ -52,6 +61,9 @@ const CardData = [
     img: cardImg2,
     heading:
       "HP 15s-DU3009TU Laptop 11th Gen Intel Core i7 800GB 512GB SSD Intel Graphics 15.6 FHD IPS Windows 10",
+    ProductCode: "NED307T019P2-1047G",
+    Brand: "Palit",
+    PriceUpdatedOn: "17 Aug, 2021",
     details:
       "Stay connected to what matters most with long-lasting battery life and a sleek and portable, micro-edge bezel design. Built to keep you productive and entertained from anywhere, the HP 15 laptop features reliable performance and an expansive display - letting you stream, surf and speed through tasks from sun up to sundown.",
     price: "Rs. 138,900",
@@ -62,6 +74,9 @@ const CardData = [
     img: cardImg1,
     heading:
       "HP 15s-DU3009TU Laptop 11th Gen Intel Core i7 8000GB 512GB SSD Intel Graphics 15.6 FHD IPS Windows 10",
+    ProductCode: "NED307T019P2-1047G",
+    Brand: "Palit",
+    PriceUpdatedOn: "17 Aug, 2021",
     details:
       "Stay connected to what matters most with long-lasting battery life and a sleek and portable, micro-edge bezel design. Built to keep you productive and entertained from anywhere, the HP 15 laptop features reliable performance and an expansive display - letting you stream, surf and speed through tasks from sun up to sundown.",
     price: "Rs. 138,900",
@@ -72,6 +87,9 @@ const CardData = [
     img: cardImg3,
     heading:
       "HP 15s-DU9TU Laptop 11th Gen Intel Core i7 8GB 512GB SSD Intel Graphics 15.6 FHD IPS Windows 10",
+    ProductCode: "NED307T019P2-1047G",
+    Brand: "Palit",
+    PriceUpdatedOn: "17 Aug, 2021",
     details:
       "Stay connected to what matters most with long-lasting battery life and a sleek and portable, micro-edge bezel design. Built to keep you productive and entertained from anywhere, the HP 15 laptop features reliable performance and an expansive display - letting you stream, surf and speed through tasks from sun up to sundown.",
     price: "Rs. 138,900",
@@ -82,6 +100,9 @@ const CardData = [
     img: cardImg4,
     heading:
       "HP 15s-DU3009TU Laptop 11th Gen Intel Core i7 8GB 512GB SSD Intel Graphics 15.6 FHD IPS Windows 8",
+    ProductCode: "NED307T019P2-1047G",
+    Brand: "Palit",
+    PriceUpdatedOn: "17 Aug, 2021",
     details:
       "Stay connected to what matters most with long-lasting battery life and a sleek and portable, micro-edge bezel design. Built to keep you productive and entertained from anywhere, the HP 15 laptop features reliable performance and an expansive display - letting you stream, surf and speed through tasks from sun up to sundown.",
     price: "Rs. 138,900",

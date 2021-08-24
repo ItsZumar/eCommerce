@@ -38,13 +38,12 @@ function FAQs() {
             We do everything to ensure that the prices on our website are
             correct and try to keep prices constant. Sometimes we need to change
             the prices, either up or down without any prior notice due to change
-            in Forex rates/government policies. Computer Zone reserves the right
-            to change the prices on the website at any time without prior
-            notice. In that case, if you have ordered the product but not yet
-            confirmed or you have even paid for a product the prices would not
-            be valid. It's better to confirm the price's of On Order Product's
-            through phone call first and then deposit the amount after
-            confirmation.
+            in Forex rates/government policies. E-Commerce reserves the right to
+            change the prices on the website at any time without prior notice.
+            In that case, if you have ordered the product but not yet confirmed
+            or you have even paid for a product the prices would not be valid.
+            It's better to confirm the price's of On Order Product's through
+            phone call first and then deposit the amount after confirmation.
           </Typography>
         </>
       );
@@ -64,27 +63,30 @@ function FAQs() {
           </Typography>
           <Typography gutterBottom>
             We want to hear your opinions. We want consumers to get the
-            information they need to make smart buying choices. As a Czone
-            client, you can submit reviews for items listed on czone.com.pk. We
-            encourage you to share your ideas, both favourable and unfavourable.
+            information they need to make smart buying choices. As a e-commerce
+            client, you can submit reviews for items listed on
+            e-commerce.com.pk. We encourage you to share your ideas, both
+            favourable and unfavourable.
           </Typography>
           <Typography gutterBottom variant="h6">
             1: Why do I write reviews?
           </Typography>
           <Typography gutterBottom>
             We want to hear your opinions. We want consumers to get the
-            information they need to make smart buying choices. As a Czone
-            client, you can submit reviews for items listed on czone.com.pk. We
-            encourage you to share your ideas, both favourable and unfavourable.
+            information they need to make smart buying choices. As a e-commerce
+            client, you can submit reviews for items listed on
+            e-commerce.com.pk. We encourage you to share your ideas, both
+            favourable and unfavourable.
           </Typography>
           <Typography gutterBottom variant="h6">
             1: Why do I write reviews?
           </Typography>
           <Typography gutterBottom>
             We want to hear your opinions. We want consumers to get the
-            information they need to make smart buying choices. As a Czone
-            client, you can submit reviews for items listed on czone.com.pk. We
-            encourage you to share your ideas, both favourable and unfavourable.
+            information they need to make smart buying choices. As a e-commerce
+            client, you can submit reviews for items listed on
+            e-commerce.com.pk. We encourage you to share your ideas, both
+            favourable and unfavourable.
           </Typography>
         </>
       );

@@ -21,7 +21,7 @@ function ContactUs() {
           padding: 10,
         }}
       >
-        <Link to="/">Home</Link>/ Contact Us
+        <Link to="/">Home</Link> / Contact Us
       </Typography>
       <Typography
         variant="h4"
@@ -50,18 +50,19 @@ function ContactUs() {
             CONTACT DETAILS
           </Typography>
           <Divider />
-          <Typography style={{ marginTop: 20 }}>Computer Zone</Typography>
+          <Typography style={{ marginTop: 20, marginBottom: 10 }}>
+            Computer Zone
+          </Typography>
           <Typography>
-            Address: FL 4/20, Main Rashid Minhas Road, Gulshan-e-Iqbal Block-5,
-            Karachi, Pakistan.
+            Address: RWP 16/20, Main Rashid Road, Gulshan-e-Johar Block-7,
+            Rawalpindi, Pakistan.
           </Typography>
-          <Typography style={{ marginTop: 10 }}>Phone: 02134960583</Typography>
+          <Typography style={{ marginTop: 10 }}>Phone: 05122222678</Typography>
           <Typography style={{ marginTop: 10 }}>
-            {" "}
-            Email: info@czone.com.pk
+            Email: info@ecommerce.com.pk
           </Typography>
           <Typography style={{ marginTop: 10 }}>
-            Website: www.czone.com.pk
+            Website: www.ecommerce.com.pk
           </Typography>
         </Grid>
         <Grid item xs={12} md={8} style={{ padding: 20 }}>

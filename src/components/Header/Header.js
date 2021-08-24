@@ -6,6 +6,7 @@ import {
   TextField,
   Container,
   Button,
+  Typography,
 } from "@material-ui/core";
 import ArrowDropDownIcon from "@material-ui/icons/ArrowDropDown";
 import SearchIcon from "@material-ui/icons/Search";
@@ -16,7 +17,7 @@ import { Link } from "react-router-dom";
 const useStyles = makeStyles((theme) => ({
   btn: {
     "&:hover": {
-      backgroundColor: "#06649e",
+      backgroundColor: "#c9184a",
     },
   },
   links: {
@@ -24,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
     color: "white",
     textDecoration: "none",
     "&:hover": {
-      color: "blue",
+      color: "#ffb3c1",
     },
   },
   btnLinks: {
@@ -32,25 +33,35 @@ const useStyles = makeStyles((theme) => ({
     textDecoration: "none",
   },
   topHeader: {
-    backgroundColor: "#064f88",
+    backgroundColor: "#800f2f",
     minHeight: "35px",
     [theme.breakpoints.down("sm")]: {
       display: "none",
     },
     [theme.breakpoints.down("md")]: {
-      // padding: "0 10px 0 10px",
       fontSize: "13px",
     },
   },
   middleHeader: {
     [theme.breakpoints.down("md")]: {
-      margin: "0 20px 0 20px",
+      padding: "0 50px 0 50px",
     },
   },
   middleHeaderDiv: {
     [theme.breakpoints.down("sm")]: {
       display: "flex",
       flexDirection: "column",
+    },
+  },
+  middleHeaderInnerDiv1: {
+    [theme.breakpoints.down("sm")]: {
+      // marginTop: -10,
+    },
+  },
+  middleHeaderInnerDiv2: {
+    [theme.breakpoints.down("sm")]: {
+      marginTop: 10,
+      marginBottom: 15,
     },
   },
   lastHeader: {
@@ -81,7 +92,7 @@ function Navbar() {
                   color="inherit"
                   className={classes.links}
                 >
-                  About Computer Zone
+                  About E-Commerce
                 </Link>
                 <Link
                   to="/contactUs"
@@ -141,8 +152,8 @@ function Navbar() {
           </Container>
         </Toolbar>
         <Toolbar
-          style={{ padding: "10px 0px 10px 0px", backgroundColor: "#0c4a79" }}
-          // className={classes.middleHeader}
+          style={{ padding: "10px 0px 10px 0px", backgroundColor: "#c9184a" }}
+          className={classes.middleHeader}
         >
           <Container className={classes.middleHeader}>
             <div
@@ -153,10 +164,13 @@ function Navbar() {
               }}
               className={classes.middleHeaderDiv}
             >
-              <div>
-                <img alt="#" src={logo} />
+              <div className={classes.middleHeaderInnerDiv1}>
+                <Typography variant="h3">E-Commerce</Typography>
               </div>
-              <div style={{ display: "flex", alignItems: "center" }}>
+              <div
+                style={{ display: "flex", alignItems: "center" }}
+                className={classes.middleHeaderInnerDiv2}
+              >
                 <TextField
                   placeholder="Search"
                   variant="outlined"
@@ -170,7 +184,7 @@ function Navbar() {
                 <Button
                   variant="contained"
                   size="large"
-                  style={{ marginLeft: 5, backgroundColor: "#ffdc00" }}
+                  style={{ marginLeft: 5, backgroundColor: "#ff758f" }}
                 >
                   <SearchIcon />
                 </Button>
@@ -182,7 +196,7 @@ function Navbar() {
             </div>
           </Container>
         </Toolbar>
-        <Toolbar style={{ minHeight: 47, backgroundColor: "#022e4c" }}>
+        <Toolbar style={{ minHeight: 47, backgroundColor: "#ff758f" }}>
           <Container className={classes.lastHeader}>
             <Button color="inherit" className={classes.btn} component="a">
               <Link className={classes.btnLinks} to="/">

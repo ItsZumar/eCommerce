@@ -1,9 +1,10 @@
 import React from "react";
 import { Fade } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
-import img1 from "../Image/ImageSlider0.jpg";
-import img2 from "../Image/ImageSlider4.jpg";
-import img3 from "../Image/ImageSlider1.jpg";
+import img1 from "./imgs/ImageSlider1.jpg";
+import img2 from "./imgs/ImageSlider2.jpg";
+import img3 from "./imgs/ImageSlider0.jpg";
+// import img3 from "../Image/ImageSlider1.jpg";
 import { Container, Typography } from "@material-ui/core";
 
 const ImgSlider = () => {
