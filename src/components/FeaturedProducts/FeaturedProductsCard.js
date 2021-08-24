@@ -41,8 +41,7 @@ function FeaturedProductsCard({ id, img, heading, detail, price, btn }) {
       <CardActionArea style={{ padding: 15 }}>
         <Link to={`/cardDetails/${id}`}>
           <Typography align="center">
-            {/* <CardMedia image={img} className={classes.media} title="game" /> */}
-            <img src={img} className={classes.media} />
+            <img alt="#" src={img} className={classes.media} />
           </Typography>
         </Link>
         <Typography variant="h6" className={classes.heading}>
